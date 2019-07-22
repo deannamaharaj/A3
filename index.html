@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 3 for Deanna Maharaj</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="a3-Css.css">
+    </head>
+    <body>
+        <script src="scripts/a3-Javascript.js"></script>
+        <h1>Assignment 3<br>Deanna Maharaj <br>Instructor: Maninder Kaur Tatla</h1>
+        <hr>
+        
+        <p>Enter numerical value to be converted:</p><br>
+        
+        <form>
+            <input name="userIn" type="number" id="userInput" autofocus><br>
+        </form>
+            
+        <table>
+            <tr>
+                <td>
+                    <button onclick="cToF()">Celsius to Fahrenheit</button>
+                    <br><br>
+                    <button onclick="fToC()">Fahrenheit to Celsius</button>
+                </td>
+                <td>
+                    <button onclick="ftToM()">Feet to Meters</button>
+                    <br><br>
+                    <button onclick="mToFt()">Meters to Feet</button>
+                </td>
+            </tr>    
+            <tr>    
+                <td>
+                    <button onclick="inToCm()">Inches to Centimeters</button>
+                    <br><br>
+                    <button onclick="cmToIn()">Centimeters to Inches</button>
+                </td>
+                <td>
+                    <button onclick="lbToKg()">Pounds to Kilograms</button>
+                    <br><br>
+                    <button onclick="kgToLb()">Kilograms to Pounds</button>
+                </td>
+            </tr>
+        </table>
+        
+        <p id="displayConversion"></p><br><br>
+        
+        <div>
+            <button onclick="reset()">Reset Input Field</button>
+        </div>
+    </body>
+</html>
